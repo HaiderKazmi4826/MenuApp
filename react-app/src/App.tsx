@@ -6,7 +6,7 @@ import Menu from "./Menu";
 const App = () => {
 
   const setCategories = () => {
-    const categories = menu.map((item: any) => item.category);
+    const categories = menu.map((item) => item.category);
     const uniqueSet = new Set(categories);
     const allCategories = ["all", ...uniqueSet];
     return allCategories;

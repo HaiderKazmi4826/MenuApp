@@ -4,7 +4,7 @@ const Menu = ({img,title,price,desc}:MenuProps) => {
   return (
     <div className='flex flex-col md:flex-row gap-4 p-2'>
         <div>
-            <div className='bg-[green] w-[200px] h-[150px] overflow-hidden border-solid border-4 border-orange-400 rounded-md'>
+            <div className='w-[200px] h-[150px] overflow-hidden border-solid border-4 border-orange-400 rounded-md'>
             <img src={img} alt="" className='w-full h-full object-cover' />
             </div>
         </div>
